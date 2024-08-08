@@ -1,5 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.orange-bg {
+  background-color: #ffb91d !important;
+}
+.gray-bg {
+  background-color: #1f6c66 !important;
+}
+.dark-color {
+  color: #121212 !important;
+}
+.text-justify{
+  text-align: justify !important;
 }

@@ -1,0 +1,26 @@
+#container-fluid-margin{
+    margin-top: 0 !important;
+    background-color: #E9EFED;
+    padding-bottom: 150px !important;
+}
+.border-radius{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fs-custom{
+    font-size: 16px;
+    font-weight: 500;
+}
+#btn-radius{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    padding: 10px 15px;
+}
+#custom-margin{
+    margin-top: -130px !important;
+}
+.custom-style{
+    width: auto !important;
+}
