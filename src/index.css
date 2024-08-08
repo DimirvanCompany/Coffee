@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Estedad";
+    src: url("assets/fonts/Estedad-Regular.ttf");
+}
+body{
+    font-family: "Estedad" !important;
+}
