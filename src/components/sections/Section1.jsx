@@ -13,21 +13,21 @@ function Section1() {
         <Container>
           <Row className="d-flex align-items-center justify-content-center">
             <Col sm="12" md="6" className="mt-5">
-              <h1 className="my-3 dark-color">قهوه آراد</h1>
-              <h2 className="my-3 gray-bg text-light d-inline-block p-2 border-radius">
+              <h1 className="my-3 dark-color fw-bold coffee-title">قهوه آراد</h1>
+              <h2 className="my-3 different-taste gray-bg text-light fw-bold d-inline-block p-2 border-radius">
                 طعمی متفاوت
               </h2>
-              <p className="my-3 fs-custom text-justify">
+              <p className="my-3 fs-custom text-justify fs-6 lh-lg">
                 سرو قهوه فوق العاده ، کیک ها و شیرینی های تازه و ارائه بهترین
                 سرویس ها در فضای زنده و به یاد ماندنی از جمله ارزش های ما در
                 مجموعه قهوه تمیز است . همه هدف ما ، تلاش ما و امید ما ارائه
                 بهترین محصول با بهترین قیمت و کیفیت است.
               </p>
-              <button className="btn my-3 border-0 orange-bg" id="btn-radius">
+              <button className="btn fw-bold my-3 border-0 orange-bg" id="btn-radius">
                 فروشگاه قهوه آراد
               </button>
             </Col>
-            <Col sm="12" md="6" className="mt-5 text-center">
+            <Col sm="12" md="6" className="mt-5 text-center text-md-end">
               <img src={Coffee} className="img-fluid w-75" alt="" />
             </Col>
           </Row>
@@ -35,7 +35,7 @@ function Section1() {
       </div>
       <div className="my-5" id="custom-margin">
         <Container>
-          <Row className="gray-bg mx-5 d-flex justify-content-center align-items-center custom-style p-3 py-4 rounded-5 shadow">
+          <Row className="gray-bg custom-media-query m-auto d-flex justify-content-center align-items-center custom-style p-3 py-4 rounded-5 shadow">
             <Col sm="12" md="5" className="text-light">
               <h4 className="my-2">منوی قهوه آراد</h4>
               <p className="my-4 text-justify">
@@ -47,7 +47,7 @@ function Section1() {
             <Col
               sm="12"
               md="6"
-              className="d-flex offset-1 justify-content-center text-center align-items-center"
+              className="d-flex offset-xl-1 justify-content-center  text-center align-items-center"
             >
               <Row className="d-flex justify-content-center align-items-center">
                 <Col  md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 text-center p-3">

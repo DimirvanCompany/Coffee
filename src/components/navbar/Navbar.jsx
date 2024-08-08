@@ -16,7 +16,7 @@ function Navbar(){
         <div className="bg-navbar">
             <Container>
                 <Row>
-                    <Col sm='5' md='4' lg='8' className='d-flex align-items-center'>
+                    <Col sm='5' md='4' lg='8'>
                     
                         <nav className='nav'> 
                             <Button className='d-xl-none d-lg-block' variant="" onClick={handleShow}>
@@ -24,13 +24,13 @@ function Navbar(){
                             </Button>
                             <h4 className='d-xl-none d-lg-block mx-4 fw-bold mt-2'>قهوه آراد</h4>
                             <ul className='d-flex d-none d-xl-flex'>
-                                <li><a href="#" ><h4>قهوه آراد</h4></a></li>
-                                <li><a href="#" >خانه</a></li>
-                                <li><a href="#" >فروشگاه</a></li>
-                                <li><a href="#" >منوی کافه</a></li>
-                                <li><a href="#" >شعبه ها</a></li>
-                                <li><a href="#" >درباره ما</a></li>
-                                <li><a href="#" >وبلاگ</a></li>
+                                <li className='list-title'><a href="#" ><h4>قهوه آراد</h4></a></li>
+                                <li className='list-style'><a href="#" >خانه</a></li>
+                                <li className='list-style'><a href="#" >فروشگاه</a></li>
+                                <li className='list-style'><a href="#" >منوی کافه</a></li>
+                                <li className='list-style'><a href="#" >شعبه ها</a></li>
+                                <li className='list-style'><a href="#" >درباره ما</a></li>
+                                <li className='list-style'><a href="#" >وبلاگ</a></li>
 
                             </ul>
                         </nav>

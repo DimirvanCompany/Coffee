@@ -1,5 +1,5 @@
 .bg-navbar{
-    background-color: aliceblue;
+    background-color: #E9EFED;
 }
 .nav{
     padding: 13px 0 0;
@@ -10,23 +10,24 @@
     align-items: center;
 }
 .nav ul{
+    all: unset;
     list-style-type: none;
    
 }
 
-.nav ul li{
+.nav ul .list-style{
     display: flex;
     margin: 0 20px;
     align-items: center;
 }
-.nav ul li a h4{
+.nav ul .list-style a h4{
     font-weight: bold;
 }
-.nav ul li a{
+.nav ul .list-style a{
     color: black;
     text-decoration: none;
 }
-.nav ul li:hover {
+.nav ul .list-style:hover {
     color: gray;
     border-bottom:  2px solid gray;
 }
@@ -66,4 +67,8 @@
    .nav_left{
     display: none;
    }
+}
+.list-title a{
+    text-decoration: none !important;
+    color: black !important;
 }
