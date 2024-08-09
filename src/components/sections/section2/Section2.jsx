@@ -1,53 +1,23 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import './Section2.css'
-import img_coffee1 from '../../../assets/images/images_S2/coffee-1.png'
-import img_coffee2 from '../../../assets/images/images_S2/coffee_2.png'
-import img_coffee3 from '../../../assets/images/images_S2/coffee_3.png'
-import img_coffee4 from '../../../assets/images/images_S2/coffee_4.png'
-import shop_Coffee_1 from '../../../assets/images/images_S2/shop_Coffee_1.png';
-import shop_Coffee_2 from '../../../assets/images/images_S2/shop_Coffee_2.png';
-import shop_Coffee_3 from '../../../assets/images/images_S2/shop_Coffee_3.png';
-import shop_pitcher from '../../../assets/images/images_S2/pitcher.png';
-import image_s2_sub from '../../../assets/images/images_S2/s2_sub.svg'
+import img_coffee1 from "../../../assets/images/coffee-1.png";
+import img_coffee2 from "../../../assets/images/coffee_2.png"
+import img_coffee3 from "../../../assets/images/coffee_3.png"
+import img_coffee4 from "../../../assets/images/coffee_4.png"
+import shop_Coffee_1 from "../../../assets/images/shop_Coffee_1.png";
+import shop_Coffee_2 from "../../../assets/images/shop_Coffee_2.png";
+import shop_Coffee_3 from "../../../assets/images/shop_Coffee_3.png";
+import shop_pitcher from "../../../assets/images/pitcher.png";
+import image_s2_sub from "../../../assets/images/s2_sub.svg"
 import '../../../index.css'
 import { FaArrowLeftLong } from "react-icons/fa6";
 const price = 1200000;
 function Section2() {
 
-    // const items = [
-    //     {
-    //         id: 1,
-    //         title: 'تایتل مربوط به محصول',
-    //         price: 1200000,
-    //         image: {img_coffee1},
-    //         details : 'جزعیات محصول'
-    //     },
-    //     {
-    //         id: 2,
-    //         title: 'تایتل مربوط به محصول',
-    //         price: 1200000,
-    //         image: {img_coffee1},
-    //         details : 'جزعیات محصول'
-    //     },
-    //     {
-    //         id: 3,
-    //         title: 'تایتل مربوط به محصول',
-    //         price: 1200000,
-    //         image: {img_coffee1},
-    //         details : 'جزعیات محصول'
-    //     },
-    //     {
-    //         id: 4,
-    //         title: 'تایتل مربوط به محصول',
-    //         price: 1200000,
-    //         image: {img_coffee1},
-    //         details : 'جزعیات محصول'
-    //     }
-    // ];
     return(
         <Container>
-            <h2 className='fw-bold py-5'><span className='color_green'>محصولات پرفروش</span> کافه اراد</h2>
             <Row className='py-5'>
+            <h2 className='fw-bold py-5'><span className='color_green'>محصولات پرفروش</span> کافه اراد</h2>
                 <Col sm={12} md={6} lg={4} xl={3}>
                 <div className="card_container">
                 <div className="card_image image_fluid">
