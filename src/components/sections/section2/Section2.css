@@ -1,0 +1,88 @@
+.color_green{
+    color: #1f6c66;
+}
+.card_container{
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card_container:hover{
+    .card_body{
+        background-color: #fff;
+    }
+    background-color: rgba(222, 184, 135, 0.637);
+    transition: all .5s;
+}
+.card_body{
+    padding: 10px;
+    border-radius: 10px;
+}
+.card_body .details{
+    color: gray;
+}
+.sub_s2_container_1 , .sub_s2_container_2{
+    height: 250px;
+    background-color: #1f6c66;
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: #ffb91d -3px 4px;
+}
+.sub_s2_container_2{
+    background-color: rgba(211, 211, 211, 0.459) !important;
+    color: black !important;
+    /* overflow: hidden; */
+}
+.sub_s2_container_3{
+    background-color: #ffb91d !important;
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: #ffb91d -3px 4px;
+}
+/* .image_pitcher{
+    width: 100% !
+    background: url('../../../assets/images/images_S2/pitcher.png');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffb91d;
+} */
+.number_s2{
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+}
+.branch_S2 h5{
+    font-weight: bold;
+}
+.icon_s2{
+    background-color: #fff;
+    color: rgb(73, 69, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.bg-gray{
+    background-color: rgba(211, 211, 211, 0.459) !important;
+}
+.image_shop{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent !important;
+    margin: 0 -10px;
+}
+.sub_icon{
+    width: 30px;
+    height: 30px;
+}
+.sub_row_right{
+    box-shadow: #ffb91d -3px 4px;
+
+}

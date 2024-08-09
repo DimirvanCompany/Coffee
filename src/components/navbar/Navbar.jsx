@@ -22,7 +22,7 @@ function Navbar(){
                             <Button className='d-xl-none d-lg-block' variant="" onClick={handleShow}>
                                 <CiMenuFries size='20px'/>
                             </Button>
-                            <h4 className='d-xl-none d-lg-block mx-4 fw-bold mt-2'>قهوه آراد</h4>
+                            <h4 className='d-xl-none d-lg-block fw-bold mt-2'>قهوه آراد</h4>
                             <ul className='d-flex d-none d-xl-flex'>
                                 <li className='list-title'><a href="#" ><h4>قهوه آراد</h4></a></li>
                                 <li className='list-style'><a href="#" >خانه</a></li>
@@ -52,16 +52,17 @@ function Navbar(){
                     <Offcanvas.Title className='fw-bold'>قهوه آراد</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                <nav className='nav'>
-                    <ul className=''>
+                <nav className='nav_offcanvas'>
+                    <ul>
                         <li className='m-0 mt-2'><FaHome size='20px' className='me-1'/><a href="#" >خانه</a></li>
                         <li className='m-0 mt-2'><BsCart4 size='20px' className='me-1'/><a href="#" >فروشگاه</a></li>
                         <li className='m-0 mt-2'><FiCoffee size='20px' className='me-1'/><a href="#" >منوی کافه</a></li>
                         <li className='m-0 mt-2'><BsBuilding size='20px' className='me-1'/><a href="#" >شعبه ها</a></li>
                         <li className='m-0 mt-2'><RiContactsFill size='20px' className='me-1'/><a href="#" >درباره ما</a></li>
                         <li className='m-0 mt-2'><GrArticle size='20px' className='me-1'/><a href="#" >وبلاگ</a></li>
-
                     </ul>
+                    <hr />
+                    <span className='sign_in'>ورود | ثبت نام</span>
                         </nav>
                 </Offcanvas.Body>
             </Offcanvas>
