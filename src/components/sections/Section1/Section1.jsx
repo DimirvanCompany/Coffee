@@ -1,6 +1,6 @@
 import "./Section1.css";
 import { Col, Container, Row } from "react-bootstrap";
-import Coffee from "../../assets/images/photo_2024-08-08_08-29-32.jpg";
+import Coffee from "../../../assets/images/photo_2024-08-08_08-29-32.jpg";
 import { FaCoffee } from "react-icons/fa";
 import { CgCoffee } from "react-icons/cg";
 import { GiSlicedBread } from "react-icons/gi";
@@ -49,7 +49,7 @@ function Section1() {
               md="6"
               className="d-flex offset-1 justify-content-center text-center align-items-center"
             >
-              <Row className="d-flex justify-content-center align-items-center">
+              <Row className="d-flex justify-content-center m-auto align-items-center">
                 <Col  md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 text-center p-3">
                   <FaCoffee
                     className="text-center"

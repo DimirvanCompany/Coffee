@@ -1,0 +1,16 @@
+#background-image {
+  background-image: url("https://bakeland.ir/wp-content/uploads/2024/05/Picture1-2024-05-01T093015.246.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px !important;
+  max-height: 500px !important;
+}
+#media-query {
+  margin-right: -50px !important;
+}
+@media screen and (max-width: 900px) {
+  #media-query {
+    margin-right: 25% !important;
+  }
+}
