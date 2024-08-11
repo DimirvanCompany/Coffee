@@ -10,7 +10,7 @@ function Section4(){
     const [articles , setArticles] = useState(Articles);
     return(
         <Container>
-            <h2 className='fw-bold py-5 my-3 text-center'><span className='color_green'>نطرات مشتریان </span> کافه اراد</h2>
+            <h2 className='fw-bold py-5 my-3 text-center'><span className='color_green'>نظرات مشتریان </span> کافه آراد</h2>
             <Row className='gy-5'>
                 {comments.map((comment) => (
                     <Col key={comment.id} md={6} lg={4}>
@@ -18,10 +18,10 @@ function Section4(){
                     </Col>
                 ))}
             </Row>
-             <h2 className='fw-bold py-5 my-3 text-center'><span className='color_green'>نطرات مشتریان </span> کافه اراد</h2>
+             <h2 className='fw-bold py-5 my-3 text-center'><span className='color_green'>مقالات</span> تخصصی آراد</h2>
             <Row className='gy-5 mb-5'>
                 {articles.map(article => (
-                    <Col lg = {4} key={article.id}>
+                    <Col md={6} lg={4} key={article.id}>
                         <Section4ArticleItem {...article}/>
                     </Col>
                 ))}
