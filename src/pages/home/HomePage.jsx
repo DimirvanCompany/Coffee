@@ -13,13 +13,9 @@ function HomePage() {
       <Section1 />
       <Section2 />
       <Section3 />
-<<<<<<< HEAD
-
-      <Footer />
-=======
       <Section4 />
->>>>>>> 1e2e0cf0ddd908031e0605019721e3647a97480c
-    </>
+      <Footer />
+      </>
   );
 }
 
