@@ -7,9 +7,8 @@
   font-family: "Estedad";
   src: url("assets/fonts/Estedad-Regular.ttf");
 }
-body{
-  font-family: "Estedad";
-
+body {
+  font-family: "Estedad" !important;
 }
 .orange-bg {
   background-color: #ffb91d !important;
