@@ -17,7 +17,7 @@ function Section2() {
     return(
         <Container>
             <Row className='py-5'>
-            <h2 className='fw-bold py-5'><span className='color_green'>محصولات پرفروش</span> کافه اراد</h2>
+            <h2 className='fw-bold pb-4'><span className='color_green'>محصولات پرفروش</span> کافه اراد</h2>
                 <Col sm={12} md={6} lg={4} xl={3}>
                 <div className="card_container">
                 <div className="card_image image_fluid">
@@ -91,7 +91,7 @@ function Section2() {
                             </div>
                             <div className="d-flex justify-content-end">
                             <div className="icon_s2">
-                                <FaArrowLeftLong />
+                            <button className='btn'> <FaArrowLeftLong /></button>
                             </div>
                             </div>
                             </div>
@@ -115,7 +115,7 @@ function Section2() {
                             </div>
                             <div className="d-flex justify-content-end">
                             <div className="icon_s2">
-                                <FaArrowLeftLong />
+                            <button className='btn'> <FaArrowLeftLong /></button>
                             </div>
                             </div>
                             </div>
@@ -146,7 +146,7 @@ function Section2() {
                 </div>
                 <div className="d-flex justify-content-end icon_image">
                 <div className="icon_s2">
-                    <FaArrowLeftLong />
+                   <button className='btn'> <FaArrowLeftLong /></button>
                 </div>
                 </div>
                 <div>
