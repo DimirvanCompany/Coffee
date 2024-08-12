@@ -1,0 +1,50 @@
+#custom-footer-margin {
+  margin-top: 200px !important;
+}
+.send-email-input {
+  all: unset;
+  text-align: left;
+  color: black;
+  width: 75% !important;
+}
+.send-email-btn {
+  all: unset;
+  color: black;
+  text-align: center;
+  width: 25% !important;
+}
+.img-emailBox {
+  height: 500px;
+  width: 400px;
+  margin-top: -160px !important;
+}
+@media screen and (max-width: 992px) {
+  #image-container {
+    display: none !important;
+  }
+  #news-container {
+    margin: 20px 0 !important;
+  }
+  .send-email-input {
+    width: 65% !important;
+  }
+  .send-email-btn {
+    width: 35% !important;
+  }
+}
+.list-style{
+    list-style-type: none;
+    text-align: start;
+    padding: 5px 0;
+}
+.table{
+    width: auto !important;
+}
+.table>:not(caption)>*>*{
+    background-color: transparent !important;
+    color: #fff !important;
+    opacity: 75%;
+}
+#container-margin{
+    margin-top: -40px !important;
+}
