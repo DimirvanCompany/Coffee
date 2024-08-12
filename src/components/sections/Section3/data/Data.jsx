@@ -48,4 +48,4 @@ const data = [
     title: "شعبه فعال",
   },
 ];
-export default data
+export default data;

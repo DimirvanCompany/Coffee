@@ -1,13 +1,12 @@
-import './App.css'
-import HomePage from './pages/home/HomePage'
-import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+import "./App.css";
+import HomePage from "./pages/home/HomePage";
+import "bootstrap/dist/css/bootstrap.rtl.min.css";
 function App() {
-
   return (
     <>
-      <HomePage/>
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

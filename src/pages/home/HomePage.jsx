@@ -15,7 +15,7 @@ function HomePage() {
       <Section3 />
       <Section4 />
       <Footer />
-      </>
+    </>
   );
 }
 

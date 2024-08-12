@@ -13,10 +13,7 @@ function Section3() {
                 className="rounded-5 d-flex align-items-center"
                 id="background-image"
               >
-                <div
-                  className="gray-bg rounded-4"
-                  id="media-query"
-                >
+                <div className="gray-bg rounded-4" id="media-query">
                   {data.map((item) => (
                     <Section3Items key={item.title} {...item} />
                   ))}
@@ -33,7 +30,10 @@ function Section3() {
                 کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
                 جامعه و متخصصان را می طلبد.
               </p>
-              <button className="btn my-3 border-0 orange-bg fw-bold" id="btn-radius">
+              <button
+                className="btn my-3 border-0 orange-bg fw-bold"
+                id="btn-radius"
+              >
                 درباره قهوه آراد
               </button>
             </Col>
