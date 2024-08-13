@@ -49,15 +49,15 @@ function Navbar() {
                   <a href="#">شعبه ها</a>
                 </li>
                 <li className="list-style">
-                  <a href="#">درباره ما</a>
+                  <a href="#">وبلاگ</a>
                 </li>
                 <li className="list-style">
-                  <a href="#">وبلاگ</a>
+                  <a href="#">درباره ما</a>
                 </li>
               </ul>
             </nav>
           </Col>
-          <Col sm="6" md="8" lg="4">
+          <Col sm="7" md="8" lg="4">
             <p className="nav_left">
                 <Button variant="" className="icon" onClick={searchBoxhandleShow}>
                 <IoMdSearch size="17px" />

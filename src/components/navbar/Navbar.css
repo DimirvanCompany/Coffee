@@ -30,7 +30,7 @@
 .nav_left {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: end !important;
   height: 100%;
   gap: 20px;
 }
@@ -42,7 +42,7 @@
   border-radius: 50% !important;
   text-align: center !important;
   display: flex !important;
-  margin: 0 10px ;
+  margin: 0 10px;
 }
 .sign_in {
   border: 2px solid #1f6c66;
@@ -96,4 +96,7 @@
   border-radius: 15px;
   border: none;
   border-bottom: 2px solid gray !important;;
+}
+.searchInput:focus{
+  outline: none;
 }
