@@ -1,10 +1,9 @@
-import { Button, Col, Container, Offcanvas, Row } from "react-bootstrap";
+import { Button, Col, Container, Modal, Offcanvas, Row } from "react-bootstrap";
 import "./Navbar.css";
 import { BsCart4, BsBuilding } from "react-icons/bs";
 import { IoMdSearch } from "react-icons/io";
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
-import { FaHome } from "react-icons/fa";
 import { FiCoffee } from "react-icons/fi";
 import { RiContactsFill } from "react-icons/ri";
 import { GrArticle } from "react-icons/gr";
@@ -12,6 +11,13 @@ function Navbar() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  //searchBox
+  const [searchBoxShow, setSearchBoxShow] = useState(false);
+  const searchBoxShowClose = () => setSearchBoxShow(false);
+  const searchBoxhandleShow = () => setSearchBoxShow(true);
+
+
   return (
     <div className="bg-navbar">
       <Container>
@@ -26,14 +32,12 @@ function Navbar() {
                 <CiMenuFries size="20px" />
               </Button>
               <h4 className="d-xl-none d-lg-block fw-bold mt-2">قهوه آراد</h4>
+              
               <ul className="d-flex d-none d-xl-flex">
                 <li className="list-title">
                   <a href="#">
                     <h4>قهوه آراد</h4>
                   </a>
-                </li>
-                <li className="list-style">
-                  <a href="#">خانه</a>
                 </li>
                 <li className="list-style">
                   <a href="#">فروشگاه</a>
@@ -55,9 +59,23 @@ function Navbar() {
           </Col>
           <Col sm="6" md="8" lg="4">
             <p className="nav_left">
-              <span className="icon">
+                <Button variant="" className="icon" onClick={searchBoxhandleShow}>
                 <IoMdSearch size="17px" />
-              </span>
+                </Button>
+              <Modal show={searchBoxShow} onHide={searchBoxShowClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title>دنبال چی میگردی؟</Modal.Title>
+                </Modal.Header>
+                <Modal.Body className="text-center"><input placeholder="بگو چی میخوای" className="searchInput" /></Modal.Body>
+                <Modal.Footer>
+                  <Button variant="" className="gray-bg text-white" onClick={searchBoxShowClose}>
+                    بستن
+                  </Button>
+                  <Button variant="" className="orange-bg" onClick={searchBoxShowClose}>
+                    جستجو
+                  </Button>
+                </Modal.Footer>
+              </Modal>
               <span className="icon">
                 <BsCart4 size="17px" />
               </span>
@@ -74,10 +92,6 @@ function Navbar() {
         <Offcanvas.Body>
           <nav className="nav_offcanvas">
             <ul>
-              <li className="m-0 mt-2">
-                <FaHome size="20px" className="me-1" />
-                <a href="#">خانه</a>
-              </li>
               <li className="m-0 mt-2">
                 <BsCart4 size="20px" className="me-1" />
                 <a href="#">فروشگاه</a>
@@ -100,7 +114,29 @@ function Navbar() {
               </li>
             </ul>
             <hr />
-            <span className="sign_in">ورود | ثبت نام</span>
+            <p className="d-flex justify-content-end">
+            <Button variant="" className="icon" onClick={searchBoxhandleShow}>
+                <IoMdSearch size="17px" />
+                </Button>
+              <Modal show={searchBoxShow} onHide={searchBoxShowClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title>دنبال چی میگردی؟</Modal.Title>
+                </Modal.Header>
+                <Modal.Body className="text-center"><input placeholder="بگو چی میخوای" className="searchInput" /></Modal.Body>
+                <Modal.Footer>
+                  <Button variant="" className="gray-bg text-white" onClick={searchBoxShowClose}>
+                    بستن
+                  </Button>
+                  <Button variant="" className="orange-bg" onClick={searchBoxShowClose}>
+                    جستجو
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+              <span className="icon">
+                <BsCart4 size="17px" />
+              </span>
+              <span className="sign_in">ورود | ثبت نام</span>
+            </p>
           </nav>
         </Offcanvas.Body>
       </Offcanvas>

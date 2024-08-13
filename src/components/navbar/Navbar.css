@@ -34,14 +34,15 @@
   height: 100%;
   gap: 20px;
 }
-.nav_left .icon {
-  border: 1px solid #1f6c66;
-  padding: 10px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  display: flex;
+.icon{
+  border: 1px solid #1f6c66 !important;
+  padding: 10px !important;
+  width: 40px !important; 
+  height: 40px !important;
+  border-radius: 50% !important;
+  text-align: center !important;
+  display: flex !important;
+  margin: 0 10px ;
 }
 .sign_in {
   border: 2px solid #1f6c66;
@@ -51,11 +52,11 @@
   font-size: 15px;
 }
 .sign_in:hover,
-.nav_left .icon:hover {
-  background-color: #ffb91d;
-  color: white;
-  cursor: pointer;
-  transition: all 0.4s;
+.icon:hover {
+  background-color: #ffb91d !important;
+  color: white !important;
+  cursor: pointer !important;
+  transition: all 0.4s !important;
 }
 
 @media screen and (max-width: 576px) {
@@ -87,4 +88,12 @@
 }
 .nav_offcanvas .sign_in {
   padding: 5px 20px;
+}
+/* searchBox */
+.searchInput{
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  border-bottom: 2px solid gray !important;;
 }
