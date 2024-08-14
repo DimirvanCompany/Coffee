@@ -5,6 +5,7 @@ import { LiaTelegram } from "react-icons/lia";
 import { PiYoutubeLogoLight } from "react-icons/pi";
 import { FiInstagram } from "react-icons/fi";
 import { CiFacebook } from "react-icons/ci";
+import { SendEmail } from "./sendEmail/SendEmail";
 function Footer() {
   return (
     <Container fluid className="gray-bg">
@@ -26,16 +27,23 @@ function Footer() {
               کنیم
             </p>
             <Row className="d-flex justify-content-center align-items-center">
-              <div className="bg-light rounded-5 p-2 d-flex justify-content-center align-items-center">
-                <button className="send-email-btn orange-bg rounded-5 p-2">
+              <form
+                className="d-flex justify-content-center align-items-center bg-light rounded-5 p-2"
+                onSubmit={SendEmail}
+              >
+                <button
+                  className="send-email-btn orange-bg rounded-5 p-2"
+                  type="submit"
+                >
                   ارسال ایمیل
                 </button>
                 <input
-                  type="text"
+                  type="email"
                   className="send-email-input p-2"
                   placeholder="آدرس ایمیل"
+                  name="email"
                 />
-              </div>
+              </form>
             </Row>
           </Col>
           <Col

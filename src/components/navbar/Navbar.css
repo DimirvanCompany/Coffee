@@ -34,10 +34,10 @@
   height: 100%;
   gap: 20px;
 }
-.icon{
+.icon {
   border: 1px solid #1f6c66 !important;
   padding: 10px !important;
-  width: 40px !important; 
+  width: 40px !important;
   height: 40px !important;
   border-radius: 50% !important;
   text-align: center !important;
@@ -90,13 +90,16 @@
   padding: 5px 20px;
 }
 /* searchBox */
-.searchInput{
+.searchInput {
   width: 100%;
   padding: 10px;
   border-radius: 15px;
   border: none;
-  border-bottom: 2px solid gray !important;;
+  border-bottom: 2px solid gray !important;
 }
-.searchInput:focus{
+.searchInput:focus {
   outline: none;
+}
+.btn-close:focus {
+  box-shadow: none !important;
 }

@@ -17,7 +17,6 @@ function Navbar() {
   const searchBoxShowClose = () => setSearchBoxShow(false);
   const searchBoxhandleShow = () => setSearchBoxShow(true);
 
-
   return (
     <div className="bg-navbar">
       <Container>
@@ -32,7 +31,7 @@ function Navbar() {
                 <CiMenuFries size="20px" />
               </Button>
               <h4 className="d-xl-none d-lg-block fw-bold mt-2">قهوه آراد</h4>
-              
+
               <ul className="d-flex d-none d-xl-flex">
                 <li className="list-title">
                   <a href="#">
@@ -59,19 +58,29 @@ function Navbar() {
           </Col>
           <Col sm="7" md="8" lg="4">
             <p className="nav_left">
-                <Button variant="" className="icon" onClick={searchBoxhandleShow}>
+              <Button variant="" className="icon" onClick={searchBoxhandleShow}>
                 <IoMdSearch size="17px" />
-                </Button>
+              </Button>
               <Modal show={searchBoxShow} onHide={searchBoxShowClose}>
                 <Modal.Header closeButton>
                   <Modal.Title>دنبال چی میگردی؟</Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="text-center"><input placeholder="بگو چی میخوای" className="searchInput" /></Modal.Body>
+                <Modal.Body className="text-center">
+                  <input placeholder="بگو چی میخوای" className="searchInput" />
+                </Modal.Body>
                 <Modal.Footer>
-                  <Button variant="" className="gray-bg text-white" onClick={searchBoxShowClose}>
+                  <Button
+                    variant=""
+                    className="gray-bg text-white"
+                    onClick={searchBoxShowClose}
+                  >
                     بستن
                   </Button>
-                  <Button variant="" className="orange-bg" onClick={searchBoxShowClose}>
+                  <Button
+                    variant=""
+                    className="orange-bg"
+                    onClick={searchBoxShowClose}
+                  >
                     جستجو
                   </Button>
                 </Modal.Footer>
@@ -115,19 +124,29 @@ function Navbar() {
             </ul>
             <hr />
             <p className="d-flex justify-content-end">
-            <Button variant="" className="icon" onClick={searchBoxhandleShow}>
+              <Button variant="" className="icon" onClick={searchBoxhandleShow}>
                 <IoMdSearch size="17px" />
-                </Button>
+              </Button>
               <Modal show={searchBoxShow} onHide={searchBoxShowClose}>
                 <Modal.Header closeButton>
                   <Modal.Title>دنبال چی میگردی؟</Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="text-center"><input placeholder="بگو چی میخوای" className="searchInput" /></Modal.Body>
+                <Modal.Body className="text-center">
+                  <input placeholder="بگو چی میخوای" className="searchInput" />
+                </Modal.Body>
                 <Modal.Footer>
-                  <Button variant="" className="gray-bg text-white" onClick={searchBoxShowClose}>
+                  <Button
+                    variant=""
+                    className="gray-bg text-white"
+                    onClick={searchBoxShowClose}
+                  >
                     بستن
                   </Button>
-                  <Button variant="" className="orange-bg" onClick={searchBoxShowClose}>
+                  <Button
+                    variant=""
+                    className="orange-bg"
+                    onClick={searchBoxShowClose}
+                  >
                     جستجو
                   </Button>
                 </Modal.Footer>
