@@ -1,10 +1,23 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/home/HomePage";
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import ShopPage from "./pages/shop/ShopPage";
 function App() {
   return (
     <>
-      <HomePage />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/shop" element={<ShopPage />} />
+        <Route path="/cafe-menu" element={<h1>منوی کافه</h1>} />
+        <Route path="/branch" element={<h1>شعبه ها</h1>} />
+        <Route path="/blog" element={<h1>وبلاگ</h1>} />
+        <Route path="/about-us" element={<h1>درباره ما</h1>} />
+      </Routes>
+      <Footer />
     </>
   );
 }

@@ -7,6 +7,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { FiCoffee } from "react-icons/fi";
 import { RiContactsFill } from "react-icons/ri";
 import { GrArticle } from "react-icons/gr";
+import { Link } from "react-router-dom";
 function Navbar() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -34,24 +35,24 @@ function Navbar() {
 
               <ul className="d-flex d-none d-xl-flex">
                 <li className="list-title">
-                  <a href="#">
+                  <Link to="/">
                     <h4>قهوه آراد</h4>
-                  </a>
+                  </Link>
                 </li>
                 <li className="list-style">
-                  <a href="#">فروشگاه</a>
+                  <Link to="shop">فروشگاه</Link>
                 </li>
                 <li className="list-style">
-                  <a href="#">منوی کافه</a>
+                  <Link to="cafe-menu">منوی کافه</Link>
                 </li>
                 <li className="list-style">
-                  <a href="#">شعبه ها</a>
+                  <Link to="branch">شعبه ها</Link>
                 </li>
                 <li className="list-style">
-                  <a href="#">وبلاگ</a>
+                  <Link to="blog">وبلاگ</Link>
                 </li>
                 <li className="list-style">
-                  <a href="#">درباره ما</a>
+                  <Link to="about-us">درباره ما</Link>
                 </li>
               </ul>
             </nav>

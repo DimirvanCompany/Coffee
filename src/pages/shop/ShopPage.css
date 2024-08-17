@@ -1,0 +1,75 @@
+.accordion-button {
+  background-color: #d2d1cf4e;
+  color: #000000 !important;
+  padding: 25px 15px !important;
+}
+.accordion-button::after {
+  color: #000000 !important;
+  background-image: url("../../assets/images/accardion-arrow.svg") !important;
+}
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+  border-radius: 6px !important;
+}
+.accordion-item {
+  border: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #d2d1cf4e;
+  box-shadow: none !important;
+}
+.accordion-body {
+  max-height: 200px !important;
+  overflow-y: scroll;
+}
+.accordion-body::-webkit-scrollbar {
+  width: 1px !important;
+}
+.accordion-body::-webkit-scrollbar-track {
+  background: #dbe0df;
+}
+.accordion-body::-webkit-scrollbar-thumb {
+  background: #1f6c66;
+}
+.accordion-body::-webkit-scrollbar-thumb:hover {
+  background: #1f6c66;
+}
+.after-box {
+  width: 18px;
+  height: 18px;
+  background-color: #e9efed;
+  border-radius: 5px !important;
+  margin: 0 10px !important;
+}
+.after-box:hover {
+  background-color: #1f6c66;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.form-select:focus {
+  box-shadow: none !important;
+  border-color: #e9efed !important;
+}
+.form-check .form-check-input {
+  float: left !important;
+}
+.form-check-input:checked {
+  background-color: orange;
+  border-color: orangered;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+.form-check-input:focus {
+  border-color: orangered;
+}
+.card , .card-img-top{
+    border-radius: 20px !important;
+}
+.price-container{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
