@@ -46,14 +46,11 @@
 .after-box:hover {
   background-color: #1f6c66;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .form-select:focus {
   box-shadow: none !important;
   border-color: #e9efed !important;
-}
-.form-check .form-check-input {
-  float: left !important;
 }
 .form-check-input:checked {
   background-color: orange;
@@ -65,11 +62,19 @@
 .form-check-input:focus {
   border-color: orangered;
 }
-.card , .card-img-top{
-    border-radius: 20px !important;
+.form-check-reverse {
+  text-align: right !important;
 }
-.price-container{
-    display: flex !important;
-    justify-content: space-between;
-    align-items: center;
+.form-check .form-check-input {
+  float: right !important;
+}
+#zero,
+#up,
+#down,
+#middle,
+#special-sperso-maker,
+#Industrial-sperso-maker,
+#home-coffee-maker,
+#french-press {
+  margin-left: 10px !important;
 }

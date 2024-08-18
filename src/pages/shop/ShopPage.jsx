@@ -1,6 +1,6 @@
 import "./ShopPage.css";
-import { Accordion, Col, Row, Container, Form, Card } from "react-bootstrap";
-import { TbBasketDollar } from "react-icons/tb";
+import { Accordion, Col, Row, Container, Form } from "react-bootstrap";
+import CartItem from "./../../components/cart/CartItem";
 function ShopPage() {
   return (
     <>
@@ -10,55 +10,43 @@ function ShopPage() {
             <div className="border-gray-700 border rounded-xl my-4">
               <Accordion defaultActiveKey="0" className="p-2.5 rounded">
                 <Accordion.Item>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                  <Accordion.Header>میزان کافئین</Accordion.Header>
                   <Accordion.Body>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
+                    <Row className="flex justify-start items-center">
+                      <Form className="p-2">
+                        <Form.Check
+                          reverse
+                          className="py-2"
+                          label="بالا"
+                          name="group1"
+                          type="checkbox"
+                          id="up"
+                        />
+                        <Form.Check
+                          reverse
+                          className="py-2"
+                          label="پایین"
+                          name="group1"
+                          type="checkbox"
+                          id="down"
+                        />
+                        <Form.Check
+                          reverse
+                          className="py-2"
+                          label="متوسط"
+                          name="group1"
+                          type="checkbox"
+                          id="middle"
+                        />
+                        <Form.Check
+                          reverse
+                          className="py-2"
+                          label="صفر"
+                          name="group1"
+                          type="checkbox"
+                          id="zero"
+                        />
+                      </Form>
                     </Row>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -67,284 +55,38 @@ function ShopPage() {
             <div className="border-gray-700 border rounded-xl my-4">
               <Accordion defaultActiveKey="0" className="p-2.5 rounded">
                 <Accordion.Item>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                  <Accordion.Header>دم‌افزار پیشنهادی</Accordion.Header>
                   <Accordion.Body>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </div>
-            <div className="border-gray-700 border rounded-xl my-4">
-              <Accordion defaultActiveKey="0" className="p-2.5 rounded">
-                <Accordion.Item>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
-                  <Accordion.Body>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </div>
-            <div className="border-gray-700 border rounded-xl my-4">
-              <Accordion defaultActiveKey="0" className="p-2.5 rounded">
-                <Accordion.Item>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
-                  <Accordion.Body>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </div>
-            <div className="border-gray-700 border rounded-xl my-4">
-              <Accordion defaultActiveKey="0" className="p-2.5 rounded">
-                <Accordion.Item>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
-                  <Accordion.Body>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-            </div>
-            <div className="border-gray-700 border rounded-xl my-4">
-              <Accordion defaultActiveKey="0" className="p-2.5 rounded">
-                <Accordion.Item>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
-                  <Accordion.Body>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
-                    <Row className="flex justify-start items-center my-3">
-                      <div className="flex justify-start items-center">
-                        <div className="after-box"></div>
-                        <span>Lorem, ipsum dolor.</span>
-                      </div>
-                    </Row>
+                    <Form className="p-2">
+                      <Form.Check
+                        className="py-2"
+                        label="اسپرسو ساز تخصصی"
+                        name="group1"
+                        type="checkbox"
+                        id="special-sperso-maker"
+                      />
+                      <Form.Check
+                        className="py-2"
+                        label="اسپرسو ساز صنعتی"
+                        name="group1"
+                        type="checkbox"
+                        id="Industrial-sperso-maker"
+                      />
+                      <Form.Check
+                        className="py-2"
+                        label="قهوه ساز خانگی"
+                        name="group1"
+                        type="checkbox"
+                        id="home-coffee-maker"
+                      />
+                      <Form.Check
+                        className="py-2"
+                        label="فرنچ‌پرس"
+                        name="group1"
+                        type="checkbox"
+                        id="french-press"
+                      />
+                    </Form>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -377,102 +119,9 @@ function ShopPage() {
               </Col>
             </Row>
             <Row className="my-3">
-              <Col sm="12" md="3" className="my-3">
-                <Card className="rounded-lg">
-                  <Card.Img
-                    variant="top"
-                    src="https://www.bonmano.com/wp-content/uploads/2024/06/hover-300x300.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title className="flex gap-x-1 my-3">
-                      <span className="text-xs">250 گرم و 1 کیلوگرم</span>
-                    </Card.Title>
-                    <Card.Text>کافی میکس 1*2 بدون شکر</Card.Text>
-                    <div className="price-container mt-4">
-                      <span>535,920 تومان</span>
-                      <span className="flex justify-center items-center">
-                        <TbBasketDollar
-                          color="#121"
-                          className="font-extrabold p-2 border-2 border-orange-200 rounded-full"
-                          size="50px"
-                        />
-                      </span>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col sm="12" md="3" className="my-3">
-                <Card className="rounded-lg">
-                  <Card.Img
-                    variant="top"
-                    src="https://www.bonmano.com/wp-content/uploads/2024/06/hover-300x300.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title className="flex gap-x-1 my-3">
-                      <span className="text-xs">250 گرم و 1 کیلوگرم</span>
-                    </Card.Title>
-                    <Card.Text>کافی میکس 1*2 بدون شکر</Card.Text>
-                    <div className="price-container mt-4">
-                      <span>535,920 تومان</span>
-                      <span className="flex justify-center items-center">
-                        <TbBasketDollar
-                          color="#121"
-                          className="font-extrabold p-2 border-2 border-orange-200 rounded-full"
-                          size="50px"
-                        />
-                      </span>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col sm="12" md="3" className="my-3">
-                <Card className="rounded-lg">
-                  <Card.Img
-                    variant="top"
-                    src="https://www.bonmano.com/wp-content/uploads/2024/06/hover-300x300.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title className="flex gap-x-1 my-3">
-                      <span className="text-xs">250 گرم و 1 کیلوگرم</span>
-                    </Card.Title>
-                    <Card.Text>کافی میکس 1*2 بدون شکر</Card.Text>
-                    <div className="price-container mt-4">
-                      <span>535,920 تومان</span>
-                      <span className="flex justify-center items-center">
-                        <TbBasketDollar
-                          color="#121"
-                          className="font-extrabold p-2 border-2 border-orange-200 rounded-full"
-                          size="50px"
-                        />
-                      </span>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col sm="12" md="3" className="my-3">
-                <Card className="rounded-lg">
-                  <Card.Img
-                    variant="top"
-                    src="https://www.bonmano.com/wp-content/uploads/2024/06/hover-300x300.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title className="flex gap-x-1 my-3">
-                      <span className="text-xs">250 گرم و 1 کیلوگرم</span>
-                    </Card.Title>
-                    <Card.Text>کافی میکس 1*2 بدون شکر</Card.Text>
-                    <div className="price-container mt-4">
-                      <span>535,920 تومان</span>
-                      <span className="flex justify-center items-center">
-                        <TbBasketDollar
-                          color="#121"
-                          className="font-extrabold p-2 border-2 border-orange-200 rounded-full"
-                          size="50px"
-                        />
-                      </span>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
+              {/* card style */}
+              {/* باید مپ زده بشه و اطلاعات رو پیاده سازی کنیم */}
+              <CartItem />
             </Row>
           </Col>
         </Row>

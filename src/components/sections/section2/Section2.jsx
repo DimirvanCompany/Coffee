@@ -21,7 +21,7 @@ function Section2() {
         <Col sm={12} md={6} lg={4} xl={3}>
           <div className="card_container">
             <div className="card_image image_fluid">
-              <img src={img_coffee1} />
+              <img src={img_coffee1} className="m-auto" />
             </div>
             <div className="card_body mt-5">
               <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
@@ -41,7 +41,7 @@ function Section2() {
         <Col sm={12} md={6} lg={4} xl={3}>
           <div className="card_container">
             <div className="card_image image_fluid">
-              <img src={img_coffee2} />
+              <img src={img_coffee2} className="m-auto" />
             </div>
             <div className="card_body mt-5">
               <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
@@ -61,7 +61,7 @@ function Section2() {
         <Col sm={12} md={6} lg={4} xl={3}>
           <div className="card_container">
             <div className="card_image image_fluid">
-              <img src={img_coffee3} />
+              <img src={img_coffee3} className="m-auto" />
             </div>
             <div className="card_body mt-5">
               <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
@@ -81,7 +81,7 @@ function Section2() {
         <Col sm={12} md={6} lg={4} xl={3}>
           <div className="card_container">
             <div className="card_image image_fluid">
-              <img src={img_coffee4} />
+              <img src={img_coffee4} className="m-auto" />
             </div>
             <div className="card_body mt-5">
               <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
@@ -197,7 +197,7 @@ function Section2() {
             <div className="text-center">
               <img
                 src="https://vakacoffee.com/wp-content/uploads/2023/03/MOCHAPOT.svg"
-                className="img-fluid w-50"
+                className="img-fluid w-50 m-auto"
               />
             </div>
           </div>

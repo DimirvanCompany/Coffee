@@ -29,9 +29,19 @@
     margin: 1rem !important;
   }
 }
-.coffee-title{
-    font-size: 70px !important;
+.coffee-title {
+  font-size: 70px !important;
 }
-.different-taste{
-    font-size: 60px !important;
+.different-taste {
+  font-size: 60px !important;
+}
+@media screen and (max-width: 768px) {
+  #responsive-style {
+    margin: 0 auto !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #responsive-style {
+    margin-right: auto !important;
+  }
 }
