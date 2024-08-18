@@ -1,6 +1,6 @@
 import "./Section4.css";
 import { ImStarEmpty } from "react-icons/im";
-function Section4Items({ image, name, comment, date }) {
+function Section4CommentItems({ image, name, comment, date }) {
   return (
     <div className="container_comments">
       <div className="card_image_comments">
@@ -15,7 +15,7 @@ function Section4Items({ image, name, comment, date }) {
       </div>
       <div className="card_score_comments">
         <p>
-          <span className="me-2">
+          <span className="me-2 d-flex mt-1">
             <ImStarEmpty color="yellow" size="20px" />
             <ImStarEmpty color="yellow" size="20px" />
             <ImStarEmpty color="yellow" size="20px" />
@@ -29,4 +29,4 @@ function Section4Items({ image, name, comment, date }) {
   );
 }
 
-export default Section4Items;
+export default Section4CommentItems;

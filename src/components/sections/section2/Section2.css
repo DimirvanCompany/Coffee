@@ -64,11 +64,14 @@
   background-color: rgba(211, 211, 211, 0.459) !important;
 }
 .image_shop {
-  overflow: hidden;
-  background-size: cover;
-  background-position: center center;
+  overflow: hidden !important;
+  background-size: cover !important;
+  background-position: center center !important;
   background-color: transparent !important;
   margin: 0 -10px;
+}
+.image_shop img {
+  max-width: none;
 }
 .sub_icon {
   width: 30px;

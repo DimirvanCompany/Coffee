@@ -10,94 +10,122 @@ import shop_Coffee_3 from "../../../assets/images/shop_Coffee_3.png";
 import image_s2_sub from "../../../assets/images/s2_sub.svg";
 import "../../../index.css";
 import { FaArrowLeftLong } from "react-icons/fa6";
-const price = 1200000;
+import Section2Items from "./Section2Items";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Autoplay } from 'swiper/modules';
+const price1 = 10000;
+const price2 = 200000;
+const price3 = 26000;
+const price4 = 588000;
+const price5 = 54600;
+const price6 = 100000;
+const price7 = 60000;
+const price8 = 75900;
 function Section2() {
+
+  const cardItem = [
+    {
+      id : 1,
+      image : img_coffee1,
+      title : 'تایتل مربوط به محصول',
+      price : price1.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 2,
+      image : img_coffee2,
+      title : 'تایتل مربوط به محصول',
+      price : price2.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 3,
+      image : img_coffee3,
+      title : 'تایتل مربوط به محصول',
+      price : price3.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 4,
+      image : img_coffee4,
+      title : 'تایتل مربوط به محصول',
+      price : price4.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 5,
+      image : img_coffee1,
+      title : 'تایتل مربوط به محصول',
+      price : price5.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 6,
+      image : img_coffee2,
+      title : 'تایتل مربوط به محصول',
+      price : price6.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 7,
+      image : img_coffee3,
+      title : 'تایتل مربوط به محصول',
+      price : price7.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+    {
+      id : 8,
+      image : img_coffee4,
+      title : 'تایتل مربوط به محصول',
+      price : price8.toLocaleString(),
+      details : 'جزئیات محصول',
+    },
+  ]
+
+
+
+
   return (
     <Container>
       <Row className="py-5">
         <h2 className="fw-bold pb-4">
           <span className="color_green">محصولات پرفروش</span> کافه اراد
         </h2>
-        <Col sm={12} md={6} lg={4} xl={3}>
-          <div className="card_container">
-            <div className="card_image image_fluid">
-              <img src={img_coffee1} className="m-auto" />
-            </div>
-            <div className="card_body mt-5">
-              <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
-              <p className="price color_green fw-bold">
-                {price.toLocaleString()} ریال
-              </p>
-              <p className="details fw-bold">جزئیات محصول</p>
-              <button
-                className="btn fw-bold my-3 border-0 orange-bg"
-                id="btn-radius"
-              >
-                ثبت سفارش
-              </button>
-            </div>
-          </div>
-        </Col>
-        <Col sm={12} md={6} lg={4} xl={3}>
-          <div className="card_container">
-            <div className="card_image image_fluid">
-              <img src={img_coffee2} className="m-auto" />
-            </div>
-            <div className="card_body mt-5">
-              <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
-              <p className="price color_green fw-bold">
-                {price.toLocaleString()} ریال
-              </p>
-              <p className="details fw-bold">جزئیات محصول</p>
-              <button
-                className="btn fw-bold my-3 border-0 orange-bg"
-                id="btn-radius"
-              >
-                ثبت سفارش
-              </button>
-            </div>
-          </div>
-        </Col>
-        <Col sm={12} md={6} lg={4} xl={3}>
-          <div className="card_container">
-            <div className="card_image image_fluid">
-              <img src={img_coffee3} className="m-auto" />
-            </div>
-            <div className="card_body mt-5">
-              <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
-              <p className="price color_green fw-bold">
-                {price.toLocaleString()} ریال
-              </p>
-              <p className="details fw-bold">جزئیات محصول</p>
-              <button
-                className="btn fw-bold my-3 border-0 orange-bg"
-                id="btn-radius"
-              >
-                ثبت سفارش
-              </button>
-            </div>
-          </div>
-        </Col>
-        <Col sm={12} md={6} lg={4} xl={3}>
-          <div className="card_container">
-            <div className="card_image image_fluid">
-              <img src={img_coffee4} className="m-auto" />
-            </div>
-            <div className="card_body mt-5">
-              <h5 className="title fw-bold">تایتل مربوط به محصول</h5>
-              <p className="price color_green fw-bold">
-                {price.toLocaleString()} ریال
-              </p>
-              <p className="details fw-bold">جزئیات محصول</p>
-              <button
-                className="btn fw-bold my-3 border-0 orange-bg"
-                id="btn-radius"
-              >
-                ثبت سفارش
-              </button>
-            </div>
-          </div>
-        </Col>
+          <Swiper
+            slidesPerView={4}
+            spaceBetween={30}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
+            breakpoints={{
+              1200: {
+                slidesPerView: 4,
+              },
+              992: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              200: {
+                slidesPerView: 1,
+              },
+            }}
+            className="mySwiper"
+          >  
+              {cardItem.map(item => (
+                <SwiperSlide key={item.id}>
+                  <Section2Items {...item} />
+                </SwiperSlide>
+              ))}
+          </Swiper>
+         
+
+
       </Row>
       <Row className="my-5 py-5">
         <Col sm={12} md={8}>
