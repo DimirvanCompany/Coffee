@@ -1,6 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Section4.css";
-import Section4Items from "./Section4CommentItems";
 import Usercomments from "./db/commentData";
 import { useState } from "react";
 import Section4ArticleItem from "./Section4ArticleItem";
