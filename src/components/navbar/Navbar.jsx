@@ -102,25 +102,45 @@ function Navbar() {
         <Offcanvas.Body>
           <nav className="nav_offcanvas">
             <ul>
-              <li className="m-0 mt-2">
-                <BsCart4 size="20px" className="me-1" />
-                <a href="#">فروشگاه</a>
+              <li>
+                <div className="flex">
+                  <span>
+                    <BsCart4 size="20px" className="me-2" />
+                  </span>
+                  <Link to="shop">فروشگاه</Link>
+                </div>
               </li>
-              <li className="m-0 mt-2">
-                <FiCoffee size="20px" className="me-1" />
-                <a href="#">منوی کافه</a>
+              <li>
+                <div className="flex">
+                  <span>
+                    <FiCoffee size="20px" className="me-2" />
+                  </span>
+                  <Link to="cafe-menu">منوی کافه</Link>
+                </div>
               </li>
-              <li className="m-0 mt-2">
-                <BsBuilding size="20px" className="me-1" />
-                <a href="#">شعبه ها</a>
+              <li>
+                <div className="flex">
+                  <span>
+                    <BsBuilding size="20px" className="me-2" />
+                  </span>
+                  <Link to="branch">شعبه ها</Link>
+                </div>
               </li>
-              <li className="m-0 mt-2">
-                <RiContactsFill size="20px" className="me-1" />
-                <a href="#">درباره ما</a>
+              <li>
+                <div className="flex">
+                  <span>
+                    <GrArticle size="20px" className="me-2" />
+                  </span>
+                  <Link to="blog">وبلاگ</Link>
+                </div>
               </li>
-              <li className="m-0 mt-2">
-                <GrArticle size="20px" className="me-1" />
-                <a href="#">وبلاگ</a>
+              <li>
+                <div className="flex">
+                  <span>
+                    <RiContactsFill size="20px" className="me-2" />
+                  </span>
+                  <Link to="about-us">درباره ما</Link>
+                </div>
               </li>
             </ul>
             <hr />

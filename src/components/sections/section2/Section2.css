@@ -18,7 +18,7 @@
   border-radius: 10px;
 }
 .card_body .details {
-  color: gray;
+  color: #1f6c66;
 }
 .sub_s2_container_1,
 .sub_s2_container_2 {
@@ -32,7 +32,6 @@
 .sub_s2_container_2 {
   background-color: rgba(211, 211, 211, 0.459) !important;
   color: black !important;
-  /* overflow: hidden; */
 }
 .sub_s2_container_3 {
   background-color: #ffb91d !important;
@@ -41,14 +40,6 @@
   border-radius: 15px;
   box-shadow: #ffb91d -3px 4px;
 }
-/* .image_pitcher{
-    width: 100% !
-    background: url('../../../assets/images/images_S2/pitcher.png');
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    background-color: #ffb91d;
-} */
 .number_s2 {
   text-align: left;
   font-size: 25px;

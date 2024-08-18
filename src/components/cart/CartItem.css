@@ -1,0 +1,9 @@
+.card,
+.card-img-top {
+  border-radius: 20px !important;
+}
+.price-container {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}

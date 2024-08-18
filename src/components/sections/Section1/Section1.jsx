@@ -28,7 +28,12 @@ function Section1() {
               </button>
             </Col>
             <Col sm="12" md="6" className="mt-5 text-center text-md-end">
-              <img src={Coffee} className="img-fluid w-75" alt="" />
+              <img
+                src={Coffee}
+                className="img-fluid w-75"
+                id="responsive-style"
+                alt=""
+              />
             </Col>
           </Row>
         </Container>
@@ -50,32 +55,12 @@ function Section1() {
               className="d-flex offset-1 justify-content-center text-center align-items-center m-auto"
             >
               <Row className="d-flex justify-content-center align-items-center">
-                <Col
-                  md="4"
-                  lg="3"
-                  xl="2"
-                  xxl="2"
-                  className="my-2 mx-2 text-center p-3"
-                >
-                  <FaCoffee
-                    className="text-center"
-                    color="#E9EFED"
-                    size="70px"
-                  />
+                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                  <FaCoffee className="m-auto" color="#E9EFED" size="70px" />
                   <h6 className="my-1 text-center text-light">چای و دمنوش</h6>
                 </Col>
-                <Col
-                  md="4"
-                  lg="3"
-                  xl="2"
-                  xxl="2"
-                  className="my-2 mx-2 text-center p-3"
-                >
-                  <CgCoffee
-                    className="text-center"
-                    color="#E9EFED"
-                    size="70px"
-                  />
+                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                  <CgCoffee className="m-auto" color="#E9EFED" size="70px" />
                   <h6 className="my-1 text-center text-light">نوشیدنی گرم</h6>
                 </Col>
                 <Col
@@ -83,41 +68,25 @@ function Section1() {
                   lg="3"
                   xl="4"
                   xxl="2"
-                  className="my-2 mx-2 text-center p-3 orange-bg rounded-4"
+                  className="my-2 mx-2 p-3 orange-bg rounded-4"
                 >
                   <GiSlicedBread
-                    className="text-center"
+                    className="m-auto"
                     color="#E9EFED"
                     size="70px"
                   />
                   <h6 className="my-1 text-center">صبحانه آراد</h6>
                 </Col>
-                <Col
-                  md="4"
-                  lg="3"
-                  xl="2"
-                  xxl="2"
-                  className="my-2 mx-2 text-center p-3"
-                >
+                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
                   <FaGlassWater
-                    className="text-center"
+                    className="m-auto"
                     color="#E9EFED"
                     size="70px"
                   />
                   <h6 className="my-1 text-center text-light">نوشیدنی سرد</h6>
                 </Col>
-                <Col
-                  md="4"
-                  lg="3"
-                  xl="2"
-                  xxl="2"
-                  className="my-2 mx-2 text-center p-3"
-                >
-                  <RiCake3Line
-                    className="text-center"
-                    color="#E9EFED"
-                    size="70px"
-                  />
+                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                  <RiCake3Line className="m-auto" color="#E9EFED" size="70px" />
                   <h6 className="my-1 text-light text-center">کیک ها</h6>
                 </Col>
               </Row>
