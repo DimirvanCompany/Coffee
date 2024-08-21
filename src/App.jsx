@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.rtl.min.css";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import ShopPage from "./pages/shop/ShopPage";
+import CartPage from './pages/cart/CartPage';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/branch" element={<h1>شعبه ها</h1>} />
         <Route path="/blog" element={<h1>وبلاگ</h1>} />
         <Route path="/about-us" element={<h1>درباره ما</h1>} />
+        <Route path="/cart" element={<CartPage/>} />
       </Routes>
       <Footer />
     </>

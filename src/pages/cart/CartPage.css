@@ -1,0 +1,7 @@
+.empty-cart-style{
+    max-width: 400px !important;
+    margin: 0 auto;
+}
+.custom-shadow{
+    box-shadow: #ffb91d 3px -4px , #1f6c66 -3px 4px ;
+}

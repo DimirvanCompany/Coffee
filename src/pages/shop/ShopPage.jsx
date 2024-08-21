@@ -1,7 +1,18 @@
 import "./ShopPage.css";
 import { Accordion, Col, Row, Container, Form } from "react-bootstrap";
-import CartItem from "./../../components/cart/CartItem";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchDataFromShop } from "../../Redux/slices/coffees";
+import CardLoding from "../../components/lodings/cardLoding/CardLoding";
+import ShopItem from "../../components/shop/ShopItem";
 function ShopPage() {
+  const dispatch = useDispatch();
+  const { data, isPending, errorMessage } = useSelector(
+    (store) => store.coffee
+  );
+  useEffect(() => {
+    dispatch(fetchDataFromShop());
+  }, []);
   return (
     <>
       <Container className="my-16">
@@ -118,10 +129,14 @@ function ShopPage() {
                 </Form>
               </Col>
             </Row>
-            <Row className="my-3">
-              {/* card style */}
-              {/* باید مپ زده بشه و اطلاعات رو پیاده سازی کنیم */}
-              <CartItem />
+            <Row className="my-3 items-center">
+              {isPending ? (
+                <CardLoding />
+              ) : errorMessage ? (
+                <h2 className="text-center">خطا در دریافت اطلاعات</h2>
+              ) : (
+                data.map((item) => <ShopItem key={item.id} {...item} />)
+              )}
             </Row>
           </Col>
         </Row>

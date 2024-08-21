@@ -1,326 +1,324 @@
 {
-    "shop" : [
-        {
-            "id" : "1",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/05/french-main.png",
-            "packaging" : "250 گرم",
-            "title" : "قهوه فرانسه گرمی",
-            "price" : "250000",
-            "category" : "V60", 
-            "amount" : "large",
-            "inventory" : "10"
-        },
-        {
-            "id" : "2",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2024/06/huila-hover-300x300.jpg",
-            "packaging" : "250 گرم",
-            "title" : "دانه قهوه تک‌خاستگاه کلمبیا هویلا",
-            "price" : "535920",
-            "category" : "V60", 
-            "amount" : "large",
-            "inventory" : "0"
-        },
-        {
-            "id" : "3",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2024/02/2in1-back-300x300.jpg",
-            "packaging" : "24 عدد ساشه + 2 عدد ساشه هدیه",
-            "title" : "کافی میکس 1*2 بدون شکر",
-            "price" : "243940",
-            "category" : "ائروپرس", 
-            "amount" : "medium",
-            "inventory" : "10"
-        },
-        {
-            "id" : "4",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2024/02/hover-instant-iced-coffee-300x300.jpg",
-            "packaging" : "24 عدد ساشه + 2 عدد ساشه هدیه",
-            "title" : "آیس کافی میکس",
-            "price" : "257490",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "medium",
-            "inventory" : "3"
-        },
-        {
-            "id" : "5",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/richi-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو ریچی",
-            "price" : "769692",
-            "category" : "جذوه", 
-            "amount" : "small",
-            "inventory" : "0"
-        },
-        {
-            "id" : "6",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/noresca9am-main-2.png",
-            "packaging" : "کیلوگرم",
-            "title" : "نورسکا ۹ صبح",
-            "price" : "108770",
-            "category" : "سایفون", 
-            "amount" : "small",
-            "inventory" : "10"
-        },
-        {
-            "id" : "7",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/05/stand-capsule-hover-300x300.png",
-            "packaging" : "1 کیلوگرم",
-            "title" : "استند کپسول قهوه",
-            "price" : "1241284",
-            "category" : "کمکس", 
-            "amount" : "empty",
-            "inventory" : "0"
-        },
-        {
-            "id" : "8",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/01/giorno-main.png   ",
-            "packaging" : "کیلوگرم",
-            "title" : "نورسکا ۹ صبح",
-            "price" : "108770",
-            "category" : "سایفون", 
-            "amount" : "large",
-            "inventory" : "10"
-        },
-        {
-            "id" : "9",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/01/arnika-main.png",
-            "packaging" : "250 گرم",
-            "title" : "دانه قهوه اسپرسو آرنیکا",
-            "price" : "198350",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "empty",
-            "inventory" : "5"
-        },
-        {
-            "id" : "10",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/05/artiman-main.png",
-            "packaging" : "250 گرم",
-            "title" : "پودر قهوه اسپرسو آرتیمان",
-            "price" : "198750",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "small",
-            "inventory" : "10"
-        },
-        {
-            "id" : "11",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/richi-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو ریچی",
-            "price" : "769692",
-            "category" : "اسپرسوساز صنعتی", 
-            "amount" : "medium",
-            "inventory" : "10"
-        },
-        {
-            "id" : "12",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/reforma-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو ریفورما",
-            "price" : "856240",
-            "category" : "اسپرسوساز صنعتی", 
-            "amount" : "empty",
-            "inventory" : "10"
-        },
-        {
-            "id" : "13",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/reforma-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو ریفورما",
-            "price" : "856240",
-            "category" : "ائروپرس", 
-            "amount" : "small",
-            "inventory" : "13"
-        },
-        {
-            
-            "id" : "14",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/visro-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو ویسرو",
-            "price" : "967120",
-            "category" : "ائروپرس", 
-            "amount" : "large",
-            "inventory" : "6"
-        },
-        {
-            "id" : "15",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2021/08/french-main.png",
-            "packaging" : "￼8 عدد ساشه",
-            "title" : "قهوه فرانسه ساشه‌ای",
-            "price" : "731,808",
-            "category" : "ائروپرس", 
-            "amount" : "medium",
-            "inventory" : "0"
-        },
-        {
-            "id" : "16",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/05/turkish-main.png",
-            "packaging" : "250 گرم",
-            "title" : "قهوه ترک گرمی",
-            "price" : "159800",
-            "category" : "جذوه", 
-            "amount" : "large",
-            "inventory" : "20"
-        },
-        {
-            "id" : "17",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2021/08/turkish-main.png",
-            "packaging" : "8 عدد ساشه",
-            "title" : "قهوه ترک ساشه‌ای",
-            "price" : "98929",
-            "category" : "جذوه", 
-            "amount" : "empty",
-            "inventory" : "4"
-        },
-        {
-            "id" : "18",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/rosso-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو روسو",
-            "price" : "166320",
-            "category" : "جذوه", 
-            "amount" : "large",
-            "inventory" : "20"
-        },
-        {
-            "id" : "19",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/05/manuka-main.png",
-            "packaging" : "250 گرم",
-            "title" : "پودر قهوه اسپرسو مانوکا",
-            "price" : "98929",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "medium",
-            "inventory" : "2"
-        },
-        {
-            "id" : "20",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/06/spresso-main.png",
-            "packaging" : "3 بسته 250 گرمی",
-            "title" : "بر مدار اسپرسو",
-            "price" : "726500",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "large",
-            "inventory" : "20"
-        },
-        {
-            "id" : "21",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/01/uniqa-main.png",
-            "packaging" : "250 گرم",
-            "title" : "دانه قهوه اسپرسو یونیکا",
-            "price" : "98929",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "medium",
-            "inventory" : "13"
-        },
-        {
-            "id" : "22",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/05/artiman-main.png",
-            "packaging" : "250 گرم",
-            "title" : "پودر قهوه اسپرسو آرتیمان",
-            "price" : "198750",
-            "category" : "اسپرسوساز خانگی", 
-            "amount" : "empty",
-            "inventory" : "0"
-        },
-        {
-            "id" : "23",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/05/french-main.png",
-            "packaging" : "بسته 250 گرمی",
-            "title" : "قهوه فرانسه گرمی",
-            "price" : "261860",
-            "category" : "سایفون", 
-            "amount" : "small",
-            "inventory" : "7"
-        },
-        {
-            "id" : "24",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/reforma-main.jpg",
-            "packaging" : "",
-            "title" : "دانه قهوه ترکیبی اسپرسو ریفورما",
-            "price" : "856240",
-            "category" : "1 کیلوگرم", 
-            "amount" : "large",
-            "inventory" : "1"
-        },
-        {
-            "id" : "25",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/rosso-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو روسو",
-            "price" : "731808",
-            "category" : "اسپرسوساز صنعتی", 
-            "amount" : "large",
-            "inventory" : "26"
-        },
-        {
-            "id" : "26",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/rosso-main.jpg",
-            "packaging" : "1 کیلوگرم",
-            "title" : "دانه قهوه ترکیبی اسپرسو ویسرو",
-            "price" : "856240",
-            "category" : "اسپرسوساز صنعتی", 
-            "amount" : "large",
-            "inventory" : "10"
-        },
-        {
-            "id" : "27",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/01/giorno-main.png",
-            "packaging" : "250 گرم",
-            "title" : "دانه قهوه اسپرسو جیورنو",
-            "price" : "195270",
-            "category" : "قهوه‌ساز فرانسه", 
-            "amount" : "medium",
-            "inventory" : "15"
-        },
-        {
-            "id" : "28",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/01/vitaly-main.png",
-            "packaging" : "250 گرم",
-            "title" : "دانه قهوه اسپرسو ویتالی",
-            "price" : "166320",
-            "category" : "قهوه‌ساز فرانسه", 
-            "amount" : "medium",
-            "inventory" : "2"
-        },
-        {
-            "id" : "29",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2023/01/vitaly-main.png",
-            "packaging" : "250 گرم",
-            "title" : "دانه قهوه اسپرسو یونیکا",
-            "price" : "166,320",
-            "category" : "قهوه‌ساز فرانسه", 
-            "amount" : "small",
-            "inventory" : "21"    
-        },
-        {
-            "id" : "30",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2024/02/instant-iced-coffee-sh.jpg",
-            "packaging" : "24 عدد + به‌همراه 2 عدد ساشه هدیه",
-            "title" : "آیس کافی میکس",
-            "price" : "257490",
-            "category" : "کمکس", 
-            "amount" : "small",
-            "inventory" : "10"
-        },
-        {
-            "id" : "31",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2017/06/noresca2pm-main-1.png",
-            "packaging" : "6 عدد ساشه",
-            "title" : "نورسکا ۲ ظهر",
-            "price" : "126370",
-            "category" : "سایفون", 
-            "amount" : "small",
-            "inventory" : "10"
-        },
-        {
-            "id" : "32",
-            "image" : "https://www.bonmano.com/wp-content/uploads/2020/04/noresca8pm-main-1.png",
-            "packaging" : "10 گرم",
-            "title" : "نورسکا ۸ شب",
-            "price" : "257490",
-            "category" : "سایفون", 
-            "amount" : "large",
-            "inventory" : "3"
-        }
-        
-    ]
+  "shop": [
+    {
+      "id": "1",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/05/french-main.png",
+      "packaging": "250 گرم",
+      "title": "قهوه فرانسه گرمی",
+      "price": 250000,
+      "category": "V60",
+      "amount": "large",
+      "inventory": "10"
+    },
+    {
+      "id": "2",
+      "image": "https://www.bonmano.com/wp-content/uploads/2024/06/huila-hover-300x300.jpg",
+      "packaging": "250 گرم",
+      "title": "دانه قهوه تک‌خاستگاه کلمبیا هویلا",
+      "price": 535920,
+      "category": "V60",
+      "amount": "large",
+      "inventory": "0"
+    },
+    {
+      "id": "3",
+      "image": "https://www.bonmano.com/wp-content/uploads/2024/02/2in1-back-300x300.jpg",
+      "packaging": "24 عدد ساشه + 2 عدد ساشه هدیه",
+      "title": "کافی میکس 1*2 بدون شکر",
+      "price": 243940,
+      "category": "ائروپرس",
+      "amount": "medium",
+      "inventory": "10"
+    },
+    {
+      "id": "4",
+      "image": "https://www.bonmano.com/wp-content/uploads/2024/02/hover-instant-iced-coffee-300x300.jpg",
+      "packaging": "24 عدد ساشه + 2 عدد ساشه هدیه",
+      "title": "آیس کافی میکس",
+      "price": 257490,
+      "category": "اسپرسوساز خانگی",
+      "amount": "medium",
+      "inventory": "3"
+    },
+    {
+      "id": "5",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/richi-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو ریچی",
+      "price": 769692,
+      "category": "جذوه",
+      "amount": "small",
+      "inventory": "0"
+    },
+    {
+      "id": "6",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/noresca9am-main-2.png",
+      "packaging": "کیلوگرم",
+      "title": "نورسکا ۹ صبح",
+      "price": 108770,
+      "category": "سایفون",
+      "amount": "small",
+      "inventory": "10"
+    },
+    {
+      "id": "7",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/05/stand-capsule-hover-300x300.png",
+      "packaging": "1 کیلوگرم",
+      "title": "استند کپسول قهوه",
+      "price": 1241284,
+      "category": "کمکس",
+      "amount": "empty",
+      "inventory": "0"
+    },
+    {
+      "id": "8",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/01/giorno-main.png   ",
+      "packaging": "کیلوگرم",
+      "title": "نورسکا ۹ صبح",
+      "price": 108770,
+      "category": "سایفون",
+      "amount": "large",
+      "inventory": "10"
+    },
+    {
+      "id": "9",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/01/arnika-main.png",
+      "packaging": "250 گرم",
+      "title": "دانه قهوه اسپرسو آرنیکا",
+      "price": 198350,
+      "category": "اسپرسوساز خانگی",
+      "amount": "empty",
+      "inventory": "5"
+    },
+    {
+      "id": "10",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/05/artiman-main.png",
+      "packaging": "250 گرم",
+      "title": "پودر قهوه اسپرسو آرتیمان",
+      "price": 198750,
+      "category": "اسپرسوساز خانگی",
+      "amount": "small",
+      "inventory": "10"
+    },
+    {
+      "id": "11",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/richi-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو ریچی",
+      "price": 769692,
+      "category": "اسپرسوساز صنعتی",
+      "amount": "medium",
+      "inventory": "10"
+    },
+    {
+      "id": "12",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/reforma-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو ریفورما",
+      "price": 856240,
+      "category": "اسپرسوساز صنعتی",
+      "amount": "empty",
+      "inventory": "10"
+    },
+    {
+      "id": "13",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/reforma-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو ریفورما",
+      "price": 856240,
+      "category": "ائروپرس",
+      "amount": "small",
+      "inventory": "13"
+    },
+    {
+      "id": "14",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/visro-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو ویسرو",
+      "price": 967120,
+      "category": "ائروپرس",
+      "amount": "large",
+      "inventory": "6"
+    },
+    {
+      "id": "15",
+      "image": "https://www.bonmano.com/wp-content/uploads/2021/08/french-main.png",
+      "packaging": "￼8 عدد ساشه",
+      "title": "قهوه فرانسه ساشه‌ای",
+      "price": 731808,
+      "category": "ائروپرس",
+      "amount": "medium",
+      "inventory": "0"
+    },
+    {
+      "id": "16",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/05/turkish-main.png",
+      "packaging": "250 گرم",
+      "title": "قهوه ترک گرمی",
+      "price": 159800,
+      "category": "جذوه",
+      "amount": "large",
+      "inventory": "20"
+    },
+    {
+      "id": "17",
+      "image": "https://www.bonmano.com/wp-content/uploads/2021/08/turkish-main.png",
+      "packaging": "8 عدد ساشه",
+      "title": "قهوه ترک ساشه‌ای",
+      "price": 98929,
+      "category": "جذوه",
+      "amount": "empty",
+      "inventory": "4"
+    },
+    {
+      "id": "18",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/rosso-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو روسو",
+      "price": 166320,
+      "category": "جذوه",
+      "amount": "large",
+      "inventory": "20"
+    },
+    {
+      "id": "19",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/05/manuka-main.png",
+      "packaging": "250 گرم",
+      "title": "پودر قهوه اسپرسو مانوکا",
+      "price": 98929,
+      "category": "اسپرسوساز خانگی",
+      "amount": "medium",
+      "inventory": "2"
+    },
+    {
+      "id": "20",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/06/spresso-main.png",
+      "packaging": "3 بسته 250 گرمی",
+      "title": "بر مدار اسپرسو",
+      "price": 726500,
+      "category": "اسپرسوساز خانگی",
+      "amount": "large",
+      "inventory": "20"
+    },
+    {
+      "id": "21",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/01/uniqa-main.png",
+      "packaging": "250 گرم",
+      "title": "دانه قهوه اسپرسو یونیکا",
+      "price": 98929,
+      "category": "اسپرسوساز خانگی",
+      "amount": "medium",
+      "inventory": "13"
+    },
+    {
+      "id": "22",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/05/artiman-main.png",
+      "packaging": "250 گرم",
+      "title": "پودر قهوه اسپرسو آرتیمان",
+      "price": 198750,
+      "category": "اسپرسوساز خانگی",
+      "amount": "empty",
+      "inventory": "0"
+    },
+    {
+      "id": "23",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/05/french-main.png",
+      "packaging": "بسته 250 گرمی",
+      "title": "قهوه فرانسه گرمی",
+      "price": 261860,
+      "category": "سایفون",
+      "amount": "small",
+      "inventory": "7"
+    },
+    {
+      "id": "24",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/reforma-main.jpg",
+      "packaging": "",
+      "title": "دانه قهوه ترکیبی اسپرسو ریفورما",
+      "price": 856240,
+      "category": "1 کیلوگرم",
+      "amount": "large",
+      "inventory": "1"
+    },
+    {
+      "id": "25",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/rosso-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو روسو",
+      "price": 731808,
+      "category": "اسپرسوساز صنعتی",
+      "amount": "large",
+      "inventory": "26"
+    },
+    {
+      "id": "26",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/rosso-main.jpg",
+      "packaging": "1 کیلوگرم",
+      "title": "دانه قهوه ترکیبی اسپرسو ویسرو",
+      "price": 856240,
+      "category": "اسپرسوساز صنعتی",
+      "amount": "large",
+      "inventory": "10"
+    },
+    {
+      "id": "27",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/01/giorno-main.png",
+      "packaging": "250 گرم",
+      "title": "دانه قهوه اسپرسو جیورنو",
+      "price": 195270,
+      "category": "قهوه‌ساز فرانسه",
+      "amount": "medium",
+      "inventory": "15"
+    },
+    {
+      "id": "28",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/01/vitaly-main.png",
+      "packaging": "250 گرم",
+      "title": "دانه قهوه اسپرسو ویتالی",
+      "price": 166320,
+      "category": "قهوه‌ساز فرانسه",
+      "amount": "medium",
+      "inventory": "2"
+    },
+    {
+      "id": "29",
+      "image": "https://www.bonmano.com/wp-content/uploads/2023/01/vitaly-main.png",
+      "packaging": "250 گرم",
+      "title": "دانه قهوه اسپرسو یونیکا",
+      "price": 166320,
+      "category": "قهوه‌ساز فرانسه",
+      "amount": "small",
+      "inventory": "21"
+    },
+    {
+      "id": "30",
+      "image": "https://www.bonmano.com/wp-content/uploads/2024/02/instant-iced-coffee-sh.jpg",
+      "packaging": "24 عدد + به‌همراه 2 عدد ساشه هدیه",
+      "title": "آیس کافی میکس",
+      "price": 257490,
+      "category": "کمکس",
+      "amount": "small",
+      "inventory": "10"
+    },
+    {
+      "id": "31",
+      "image": "https://www.bonmano.com/wp-content/uploads/2017/06/noresca2pm-main-1.png",
+      "packaging": "6 عدد ساشه",
+      "title": "نورسکا ۲ ظهر",
+      "price": 126370,
+      "category": "سایفون",
+      "amount": "small",
+      "inventory": "10"
+    },
+    {
+      "id": "32",
+      "image": "https://www.bonmano.com/wp-content/uploads/2020/04/noresca8pm-main-1.png",
+      "packaging": "10 گرم",
+      "title": "نورسکا ۸ شب",
+      "price": 257490,
+      "category": "سایفون",
+      "amount": "large",
+      "inventory": "3"
+    }
+  ]
 }

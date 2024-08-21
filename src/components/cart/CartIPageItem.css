@@ -1,0 +1,6 @@
+#card-border {
+  border: none !important;
+}
+.cusom-shadow {
+  box-shadow: #1f6c66 3px -4px, #ffb91d -3px 4px;
+}

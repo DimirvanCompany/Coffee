@@ -103,3 +103,26 @@
 .btn-close:focus {
   box-shadow: none !important;
 }
+.cartIcon {
+  margin: 0 10px !important;
+  position: relative;
+}
+.cartIcon span {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #041615;
+  color: #fff;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+.cartIcon:hover{
+  background-color: #ffb91d !important;
+  color: white !important;
+  cursor: pointer !important;
+  transition: all 0.4s !important;
+}

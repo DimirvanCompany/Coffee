@@ -1,6 +1,6 @@
 import { Button, Col, Container, Modal, Offcanvas, Row } from "react-bootstrap";
 import "./Navbar.css";
-import { BsCart4, BsBuilding } from "react-icons/bs";
+import { BsBuilding } from "react-icons/bs";
 import { IoMdSearch } from "react-icons/io";
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
@@ -8,16 +8,17 @@ import { FiCoffee } from "react-icons/fi";
 import { RiContactsFill } from "react-icons/ri";
 import { GrArticle } from "react-icons/gr";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { CgShoppingBag } from "react-icons/cg";
 function Navbar() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
   //searchBox
   const [searchBoxShow, setSearchBoxShow] = useState(false);
   const searchBoxShowClose = () => setSearchBoxShow(false);
   const searchBoxhandleShow = () => setSearchBoxShow(true);
-
+  const { addedToCart } = useSelector((store) => store.cart);
   return (
     <div className="bg-navbar">
       <Container>
@@ -86,15 +87,19 @@ function Navbar() {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              <span className="icon">
-                <BsCart4 size="17px" />
-              </span>
+              <div className="icons flex items-center gap-5">
+                <span className="cartIcon border border-black p-1.5 border-opacity-50 rounded-full">
+                  <Link to="/cart">
+                    <CgShoppingBag size="25px" title="سبد خرید" />
+                  </Link>
+                  {addedToCart > 0 ? <span>{addedToCart}</span> : ""}
+                </span>
+              </div>
               <span className="sign_in">ورود | ثبت نام</span>
             </p>
           </Col>
         </Row>
       </Container>
-
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="fw-bold">قهوه آراد</Offcanvas.Title>
@@ -105,7 +110,7 @@ function Navbar() {
               <li>
                 <div className="flex">
                   <span>
-                    <BsCart4 size="20px" className="me-2" />
+                    <CgShoppingBag size="20px" className="me-2" />
                   </span>
                   <Link to="shop">فروشگاه</Link>
                 </div>
@@ -172,9 +177,14 @@ function Navbar() {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              <span className="icon">
-                <BsCart4 size="17px" />
-              </span>
+              <div className="icons flex items-center gap-5">
+                <span className="cartIcon border border-black p-1.5 border-opacity-50 rounded-full">
+                  <Link to="/cart">
+                    <CgShoppingBag size="25px" title="سبد خرید" />
+                  </Link>
+                  {addedToCart > 0 ? <span>{addedToCart}</span> : ""}
+                </span>
+              </div>
               <span className="sign_in">ورود | ثبت نام</span>
             </p>
           </nav>

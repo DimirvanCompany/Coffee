@@ -3,9 +3,9 @@ export const fetchDataFromShop = createAsyncThunk(
   "cart/fetchDataFromShopStatus",
   async (arg, { rejectWithValue }) => {
     try {
-      const response = await fetch("");
-      const data = response.json();
-      return data;
+      const response = await fetch("http://localhost:3000/shop");
+      const coffee = response.json();
+      return coffee;
     } catch (err) {
       return rejectWithValue("دریافت اطلاعات با خطا مواجه شد");
     }
@@ -15,18 +15,20 @@ export const coffeeSlice = createSlice({
   name: "coffee",
   initialState: {
     data: [],
-    inPending: true,
+    isPending: false,
     errorMessage: null,
   },
   extraReducers: (builder) => {
     builder.addCase(fetchDataFromShop.fulfilled, (state, action) => {
-      // code
+      state.data = action.payload;
+      state.isPending = false;
     });
     builder.addCase(fetchDataFromShop.pending, (state, action) => {
-      // code
+      state.isPending = true
     });
     builder.addCase(fetchDataFromShop.rejected, (state, action) => {
-      // code
+      state.errorMessage = action.payload;
+      state.isPending = false;
     });
   },
 });
