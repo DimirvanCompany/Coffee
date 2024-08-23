@@ -47,9 +47,6 @@ function Navbar() {
                   <Link to="cafe-menu">منوی کافه</Link>
                 </li>
                 <li className="list-style">
-                  <Link to="branch">شعبه ها</Link>
-                </li>
-                <li className="list-style">
                   <Link to="blog">وبلاگ</Link>
                 </li>
                 <li className="list-style">

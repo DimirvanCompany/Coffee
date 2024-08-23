@@ -18,6 +18,11 @@ function CartPage() {
         )}
         {addedToCart > 0 && (
           <Row className="flex items-start justify-center m-auto">
+            <Col md="9">
+              {addedProducts.map((item) => (
+                <CartIPageItem key={item.id} {...item} />
+              ))}
+            </Col>
             <Col
               md="3"
               className=" p-3 rounded-lg mt-4 text-center bg-navbar custom-shadow flex items-center justify-center"
@@ -27,16 +32,12 @@ function CartPage() {
                 <p>{totalPrice.toLocaleString()} تومان</p>
               </Row>
             </Col>
-            <Col md="9">
-              {addedProducts.map((item) => (
-                <CartIPageItem key={item.id} {...item} />
-              ))}
-            </Col>
+            
           </Row>
         )}
       </Row>
     </Container>
   );
 }
-
+  
 export default CartPage;

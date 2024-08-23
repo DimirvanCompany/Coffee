@@ -3,21 +3,20 @@ import "./ShopItem.css";
 import { TbBasketDollar } from "react-icons/tb";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../Redux/slices/cart";
-import toast, { Toaster } from "react-hot-toast";
+import toast,{Toaster} from "react-hot-toast"
 function ShopItem({ id, image, title, packaging, price }) {
   const dispatch = useDispatch();
   const { addedProducts } = useSelector((store) => store.cart);
   const { data } = useSelector((store) => store.coffee);
   const addToCartHandler = () => {
     if (isItemExistInToCart()) {
-      toast.success("محصول به سبد خرید اضافه شده است");
+      toast.error("محصول به سبد خرید اضافه شده است");
     } else {
       toast.success("محصول با موفقیت به سبد خرید اضافه شد");
       const productData = data.find((coffee) => coffee.id == id);
       dispatch(addToCart(productData));
     }
   };
-
   const isItemExistInToCart = () => {
     return addedProducts.some((item) => item.id == id);
   };
@@ -47,7 +46,7 @@ function ShopItem({ id, image, title, packaging, price }) {
             </div>
           </Card.Body>
         </Card>
-      </Col>
+      </Col>  
     </>
   );
 }

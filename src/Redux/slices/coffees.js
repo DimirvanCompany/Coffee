@@ -3,7 +3,7 @@ export const fetchDataFromShop = createAsyncThunk(
   "cart/fetchDataFromShopStatus",
   async (arg, { rejectWithValue }) => {
     try {
-      const response = await fetch("http://localhost:3000/shop");
+      const response = await fetch("http://localhost:9000/shop");
       const coffee = response.json();
       return coffee;
     } catch (err) {

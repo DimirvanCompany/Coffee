@@ -1,5 +1,6 @@
 import { combineSlices } from "@reduxjs/toolkit";
 import { coffeeSlice } from "./coffees";
 import { cartSlice } from "./cart";
-const rootReducer = combineSlices(cartSlice, coffeeSlice);
+import { menuSlice } from "./menu";
+const rootReducer = combineSlices(cartSlice, coffeeSlice , menuSlice);
 export default rootReducer;
