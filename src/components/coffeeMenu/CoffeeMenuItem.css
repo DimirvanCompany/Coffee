@@ -1,10 +1,8 @@
-.right img{
-    /* width: 100% !important; */
-    width: 100px;
+.right img {
+  width: 100px;
 }
 @media screen and (max-width: 500px) {
-    .xs_media{
-        display: none;
-    }
-
+  .xs_media {
+    display: none;
+  }
 }

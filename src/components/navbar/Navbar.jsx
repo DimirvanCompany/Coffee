@@ -47,7 +47,7 @@ function Navbar() {
                   <Link to="cafe-menu">منوی کافه</Link>
                 </li>
                 <li className="list-style">
-                  <Link to="blog">وبلاگ</Link>
+                  <Link to="blog">بلاگ</Link>
                 </li>
                 <li className="list-style">
                   <Link to="about-us">درباره ما</Link>
@@ -123,17 +123,9 @@ function Navbar() {
               <li>
                 <div className="flex">
                   <span>
-                    <BsBuilding size="20px" className="me-2" />
-                  </span>
-                  <Link to="branch">شعبه ها</Link>
-                </div>
-              </li>
-              <li>
-                <div className="flex">
-                  <span>
                     <GrArticle size="20px" className="me-2" />
                   </span>
-                  <Link to="blog">وبلاگ</Link>
+                  <Link to="blog">بلاگ</Link>
                 </div>
               </li>
               <li>

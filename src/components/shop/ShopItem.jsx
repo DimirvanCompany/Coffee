@@ -30,7 +30,7 @@ function ShopItem({ id, image, title, packaging, price }) {
             <Card.Title className="flex gap-x-1 my-3">
               <span className="text-xs">{packaging}</span>
             </Card.Title>
-            <Card.Text className="text-sm">{title}</Card.Text>
+            <Card.Text className="text-xs font-bold">{title}</Card.Text>
             <div className="price-container mt-4">
               <span>{price.toLocaleString()} تومان</span>
               <button

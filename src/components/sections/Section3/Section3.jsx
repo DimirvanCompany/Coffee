@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Section3.css";
 import Section3Items from "./Section3Items";
 import data from "./data/Data";
+import { Link } from "react-router-dom";
 function Section3() {
   return (
     <>
@@ -34,7 +35,12 @@ function Section3() {
                 className="btn my-3 border-0 orange-bg fw-bold"
                 id="btn-radius"
               >
-                درباره قهوه آراد
+                <Link
+                  to="/about-us"
+                  className="text-decoration-none text-black"
+                >
+                  درباره قهوه آراد
+                </Link>
               </button>
             </Col>
           </Row>

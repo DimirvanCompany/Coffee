@@ -6,6 +6,7 @@ import { CgCoffee } from "react-icons/cg";
 import { GiSlicedBread } from "react-icons/gi";
 import { FaGlassWater } from "react-icons/fa6";
 import { RiCake3Line } from "react-icons/ri";
+import { Link } from "react-router-dom";
 function Section1() {
   return (
     <>
@@ -24,7 +25,12 @@ function Section1() {
                 بهترین محصول با بهترین قیمت و کیفیت است.
               </p>
               <button className="btn my-3 border-0 orange-bg" id="btn-radius">
-                فروشگاه قهوه آراد
+                <Link
+                  to="/shop"
+                  className="text-decoration-none text-black"
+                >
+                  فروشگاه قهوه آراد
+                </Link>
               </button>
             </Col>
             <Col sm="12" md="6" className="mt-5 text-center text-md-end">

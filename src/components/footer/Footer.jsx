@@ -6,6 +6,7 @@ import { PiYoutubeLogoLight } from "react-icons/pi";
 import { FiInstagram } from "react-icons/fi";
 import { CiFacebook } from "react-icons/ci";
 import { SendEmail } from "./sendEmail/SendEmail";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <Container fluid className="gray-bg">
@@ -127,52 +128,44 @@ function Footer() {
                 لینک ها
               </h6>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   خانه
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/shop"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   فروشگاه
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/cafe-menu"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   منوی کافه
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
-                  className="text-light text-opacity-75 text-decoration-none"
-                >
-                  شعبه ها
-                </a>
-              </li>
-              <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/blog"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   وبلاگ
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="about-us"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   درباره ما
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
