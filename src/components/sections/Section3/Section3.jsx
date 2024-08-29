@@ -22,8 +22,18 @@ function Section3() {
               </div>
             </Col>
             <Col sm="12" md="5" className="offset-md-1 my-2">
-              <h2 className="my-3 text-light fw-bold">درباره کافه آراد</h2>
-              <p className="my-2 text-light text-justify">
+              <h2
+                className="my-3 text-light fw-bold"
+                data-aos="fade-down"
+                data-aos-delay="500"
+              >
+                درباره کافه آراد
+              </h2>
+              <p
+                className="my-2 text-light text-justify"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
                 استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
@@ -34,6 +44,8 @@ function Section3() {
               <button
                 className="btn my-3 border-0 orange-bg fw-bold"
                 id="btn-radius"
+                data-aos="fade-down"
+                data-aos-delay="700"
               >
                 <Link
                   to="/about-us"

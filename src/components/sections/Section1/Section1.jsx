@@ -13,22 +13,38 @@ function Section1() {
       <div className="mt-5" id="container-fluid-margin">
         <Container>
           <Row className="d-flex align-items-center justify-content-center">
-            <Col sm="12" md="6" className="mt-5">
-              <h1 className="my-3 dark-color fw-bold">قهوه آراد</h1>
-              <h2 className="my-3 gray-bg text-light d-inline-block p-2 border-radius fw-bold">
+            <Col sm="12" md="6" className="mt-5" data-aos="fade-left">
+              <h1
+                className="my-3 dark-color fw-bold"
+                data-aos="fade-down"
+                data-aos-delay="300"
+              >
+                قهوه آراد
+              </h1>
+              <h2
+                className="my-3 gray-bg text-light d-inline-block p-2 border-radius fw-bold"
+                data-aos="fade-down"
+                data-aos-delay="400"
+              >
                 طعمی متفاوت
               </h2>
-              <p className="my-3 fs-custom text-justify">
+              <p
+                className="my-3 fs-custom text-justify"
+                data-aos="fade-down"
+                data-aos-delay="500"
+              >
                 سرو قهوه فوق العاده ، کیک ها و شیرینی های تازه و ارائه بهترین
                 سرویس ها در فضای زنده و به یاد ماندنی از جمله ارزش های ما در
                 مجموعه قهوه تمیز است . همه هدف ما ، تلاش ما و امید ما ارائه
                 بهترین محصول با بهترین قیمت و کیفیت است.
               </p>
-              <button className="btn my-3 border-0 orange-bg" id="btn-radius">
-                <Link
-                  to="/shop"
-                  className="text-decoration-none text-black"
-                >
+              <button
+                className="btn my-3 border-0 orange-bg"
+                id="btn-radius"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
+                <Link to="/shop" className="text-decoration-none text-black">
                   فروشگاه قهوه آراد
                 </Link>
               </button>
@@ -61,11 +77,27 @@ function Section1() {
               className="d-flex offset-1 justify-content-center text-center align-items-center m-auto"
             >
               <Row className="d-flex justify-content-center align-items-center">
-                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                <Col
+                  md="4"
+                  lg="3"
+                  xl="2"
+                  xxl="2"
+                  className="my-2 mx-2 p-3"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="300"
+                >
                   <FaCoffee className="m-auto" color="#E9EFED" size="70px" />
                   <h6 className="my-1 text-center text-light">چای و دمنوش</h6>
                 </Col>
-                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                <Col
+                  md="4"
+                  lg="3"
+                  xl="2"
+                  xxl="2"
+                  className="my-2 mx-2 p-3"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="500"
+                >
                   <CgCoffee className="m-auto" color="#E9EFED" size="70px" />
                   <h6 className="my-1 text-center text-light">نوشیدنی گرم</h6>
                 </Col>
@@ -75,6 +107,8 @@ function Section1() {
                   xl="4"
                   xxl="2"
                   className="my-2 mx-2 p-3 orange-bg rounded-4"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="700"
                 >
                   <GiSlicedBread
                     className="m-auto"
@@ -83,7 +117,15 @@ function Section1() {
                   />
                   <h6 className="my-1 text-center">صبحانه آراد</h6>
                 </Col>
-                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                <Col
+                  md="4"
+                  lg="3"
+                  xl="2"
+                  xxl="2"
+                  className="my-2 mx-2 p-3"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="900"
+                >
                   <FaGlassWater
                     className="m-auto"
                     color="#E9EFED"
@@ -91,7 +133,15 @@ function Section1() {
                   />
                   <h6 className="my-1 text-center text-light">نوشیدنی سرد</h6>
                 </Col>
-                <Col md="4" lg="3" xl="2" xxl="2" className="my-2 mx-2 p-3">
+                <Col
+                  md="4"
+                  lg="3"
+                  xl="2"
+                  xxl="2"
+                  className="my-2 mx-2 p-3"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="1100"
+                >
                   <RiCake3Line className="m-auto" color="#E9EFED" size="70px" />
                   <h6 className="my-1 text-light text-center">کیک ها</h6>
                 </Col>

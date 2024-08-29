@@ -16,18 +16,33 @@ function Footer() {
           id="custom-style"
         >
           <Col
+            data-aos="fade-left"
             sm="12"
             md="12"
             lg="6"
             className="text-light"
             id="news-container"
           >
-            <h1 className="my-2 text-dark py-3">خبرنامه قهوه آراد</h1>
-            <p className="my-4 text-justify text-dark">
+            <h1
+              className="my-2 text-dark py-3"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              خبرنامه قهوه آراد
+            </h1>
+            <p
+              className="my-4 text-justify text-dark"
+              data-aos="fade-down"
+              data-aos-delay="400"
+            >
               ما به وقت شما اهمیت می دهیم ، اجازه دهید برای ورود شما برنامه ریزی
               کنیم
             </p>
-            <Row className="d-flex justify-content-center align-items-center">
+            <Row
+              className="d-flex justify-content-center align-items-center"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
               <form
                 className="d-flex justify-content-center align-items-center bg-light rounded-5 p-2"
                 onSubmit={SendEmail}
@@ -48,6 +63,7 @@ function Footer() {
             </Row>
           </Col>
           <Col
+            data-aos="fade-right"
             sm="12"
             md="0"
             lg="6"
