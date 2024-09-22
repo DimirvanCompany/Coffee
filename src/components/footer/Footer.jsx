@@ -6,6 +6,7 @@ import { PiYoutubeLogoLight } from "react-icons/pi";
 import { FiInstagram } from "react-icons/fi";
 import { CiFacebook } from "react-icons/ci";
 import { SendEmail } from "./sendEmail/SendEmail";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <Container fluid className="gray-bg">
@@ -15,18 +16,33 @@ function Footer() {
           id="custom-style"
         >
           <Col
+            data-aos="fade-left"
             sm="12"
             md="12"
             lg="6"
             className="text-light"
             id="news-container"
           >
-            <h1 className="my-2 text-dark py-3">خبرنامه قهوه آراد</h1>
-            <p className="my-4 text-justify text-dark">
+            <h1
+              className="my-2 text-dark py-3"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              خبرنامه قهوه آراد
+            </h1>
+            <p
+              className="my-4 text-justify text-dark"
+              data-aos="fade-down"
+              data-aos-delay="400"
+            >
               ما به وقت شما اهمیت می دهیم ، اجازه دهید برای ورود شما برنامه ریزی
               کنیم
             </p>
-            <Row className="d-flex justify-content-center align-items-center">
+            <Row
+              className="d-flex justify-content-center align-items-center"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
               <form
                 className="d-flex justify-content-center align-items-center bg-light rounded-5 p-2"
                 onSubmit={SendEmail}
@@ -47,6 +63,7 @@ function Footer() {
             </Row>
           </Col>
           <Col
+            data-aos="fade-right"
             sm="12"
             md="0"
             lg="6"
@@ -127,52 +144,44 @@ function Footer() {
                 لینک ها
               </h6>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   خانه
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/shop"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   فروشگاه
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/cafe-menu"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   منوی کافه
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
-                  className="text-light text-opacity-75 text-decoration-none"
-                >
-                  شعبه ها
-                </a>
-              </li>
-              <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="/blog"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   وبلاگ
-                </a>
+                </Link>
               </li>
               <li className="list-style">
-                <a
-                  href="#"
+                <Link
+                  to="about-us"
                   className="text-light text-opacity-75 text-decoration-none"
                 >
                   درباره ما
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>

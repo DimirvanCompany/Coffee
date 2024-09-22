@@ -1,0 +1,11 @@
+.progress,
+.progress-stacked {
+  --bs-progress-height: 2.5rem !important;
+}
+.col-md-7.col-sm-12 .text-justify,
+.progress-bar {
+  color: #1f6c66 !important;
+}
+.progress .progress-bar.bg-warning {
+  background-color: #ffb91d !important;
+}
