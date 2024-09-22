@@ -3,12 +3,16 @@ import CartIPageItem from "../../components/cart/CartIPageItem";
 import "./CartPage.css";
 import { useSelector } from "react-redux";
 import { CgShoppingBag } from "react-icons/cg";
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 function CartPage() {
   const { addedProducts, addedToCart, totalPrice } = useSelector(
     (store) => store.cart
   );
   return (
-    <Container>
+    <>
+      <Navbar />
+      <Container>
       <Row>
         {addedToCart == 0 && (
           <Row className="flex mt-5 w-75 m-auto text-white py-5 rounded-2xl items-center gray-bg gap-y-8 justify-center ">
@@ -37,6 +41,8 @@ function CartPage() {
         )}
       </Row>
     </Container>
+    <Footer />
+    </>
   );
 }
   

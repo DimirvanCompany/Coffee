@@ -5,6 +5,8 @@ import { useEffect } from "react";
 import { fetchDataFromShop } from "../../Redux/slices/coffees";
 import CardLoding from "../../components/lodings/cardLoding/CardLoding";
 import ShopItem from "../../components/shop/ShopItem";
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 function ShopPage() {
   const dispatch = useDispatch();
   const { data, isPending, errorMessage } = useSelector(
@@ -15,6 +17,7 @@ function ShopPage() {
   }, []);
   return (
     <>
+      <Navbar />
       <Container className="my-16">
         <Row>
           <Col sm="12" md="3">
@@ -141,6 +144,7 @@ function ShopPage() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 }

@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 import menuItem from './db';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchDataMenu } from '../../Redux/slices/menu';
+import Navbar from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer';
 function CoffeeMenu(){
     const {data , total , productCount} = useSelector(store => store.menu)
     const dispatch = useDispatch()
@@ -14,6 +16,8 @@ function CoffeeMenu(){
 
     const [coffeedb  , setCoffeedb] = useState(menuItem)
     return(
+        <>
+        <Navbar />
         <Container className='mt-5'>
             <h2 className='text-center my-5 fw-bold'>منو کافه </h2>
             <Row className='text-center gap-y-3 relative '>
@@ -33,6 +37,8 @@ function CoffeeMenu(){
                 </Col>
             </Row>
         </Container>
+        <Footer />
+        </>
     )   
 }
 

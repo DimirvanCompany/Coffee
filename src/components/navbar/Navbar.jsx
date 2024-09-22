@@ -92,7 +92,7 @@ function Navbar() {
                   {addedToCart > 0 ? <span>{addedToCart}</span> : ""}
                 </span>
               </div>
-              <span className="sign_in">ورود | ثبت نام</span>
+              <Link to={'/login'} className="no-underline text-gray-900 sign_in">ورود | ثبت نام</Link>
             </p>
           </Col>
         </Row>
@@ -182,7 +182,7 @@ function Navbar() {
                   {addedToCart > 0 ? <span>{addedToCart}</span> : ""}
                 </span>
               </div>
-              <span className="sign_in">ورود | ثبت نام</span>
+              <Link to={'/login'} className="sign_in">ورود | ثبت نام</Link>
             </p>
           </nav>
         </Offcanvas.Body>
